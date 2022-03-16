@@ -1,6 +1,6 @@
 package com.bridgelabz;
 //Welcome to Line Comparison Computation Program
-//UC 2 Two Lines are Equal or Not
+//UC 3 Compare To Method
 import java.util.Scanner;
 import java.lang.Math;
 public class LineComparisonProblems
@@ -39,6 +39,7 @@ public class LineComparisonProblems
         double length2 = Math.sqrt(Math.pow(x4 - x3, 2) + Math.pow(y4 - y3, 2));
         String str2 = Double.toString(length2);
 
-        System.out.println(str1.equals(str2));
+        System.out.println(str2.compareTo(str1));
+
     }
 }
