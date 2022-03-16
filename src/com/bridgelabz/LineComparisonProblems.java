@@ -1,11 +1,11 @@
 package com.bridgelabz;
 //Welcome to Line Comparison Computation Program
-//UC 3 Compare To Method
+//UC 4 Add Compare To Method By Using OOPS Concept
 import java.util.Scanner;
 import java.lang.Math;
 public class LineComparisonProblems
 {
-    public static void main(String[] args)
+    public static void compareLine()
     {
         double x1;
         double y1;
@@ -15,6 +15,7 @@ public class LineComparisonProblems
         double y3;
         double x4;
         double y4;
+
         Scanner reader = new Scanner(System.in);
 
         System.out.println("Enter x1");
@@ -40,6 +41,9 @@ public class LineComparisonProblems
         String str2 = Double.toString(length2);
 
         System.out.println(str2.compareTo(str1));
-
+    }
+    public static void main(String[] args)
+    {
+        compareLine();
     }
 }
